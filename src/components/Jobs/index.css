@@ -1,0 +1,43 @@
+.app-jobs {
+  background-color: #000000;
+  min-height: 100vh;
+  padding: 30px;
+  display: flex;
+}
+.search-container {
+  display: flex;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  width: 400px;
+  height: 45px;
+}
+.search-input {
+  background-color: transparent;
+  width: 100%;
+  padding: 7px;
+  outline: none;
+  color: #ffffff;
+}
+.search-button {
+  background-color: #272727;
+  color: #ffffff;
+  border: 0;
+  outline: none;
+  width: 50px;
+}
+.jobs-container {
+  margin-left: 40px;
+  width: 100%;
+}
+.type-of-emp {
+  color: #ffffff;
+  font-size: 20px;
+}
+.type-of-emp-list-container {
+  list-style: none;
+  padding: 0;
+}
+.jobs-list-container {
+  list-style: none;
+  padding: 0;
+}
