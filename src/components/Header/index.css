@@ -11,7 +11,6 @@
 }
 .nav-bar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 .nav-items-container {
@@ -37,4 +36,21 @@
 .link {
   text-decoration: none;
   color: #ffffff;
+}
+@media screen and (max-width: 576px) {
+  .website-logo {
+    width: 100px;
+    height: 30px;
+  }
+  .navbar-container {
+    padding: 5px 15px;
+  }
+  .logout-btn {
+    height: 25px;
+    width: 60px;
+    font-size: 12px;
+  }
+  .nav-item {
+    font-size: 10px;
+  }
 }

@@ -139,6 +139,23 @@ class Jobs extends Component {
       <>
         <Header />
         <div className="app-jobs">
+          <div className="search-mobile-container">
+            <input
+              type="search"
+              placeholder="Search"
+              className="search-input"
+              onChange={this.onChangeSearchInput}
+              value={searchInput}
+            />
+            <button
+              onClick={this.onSearch}
+              type="button"
+              className="search-button"
+              data-testid="searchButton"
+            >
+              <BsSearch className="search-icon" />
+            </button>
+          </div>
           <div className="profile-filter-container">
             <Profile />
             <hr />

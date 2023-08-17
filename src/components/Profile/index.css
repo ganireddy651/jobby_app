@@ -16,3 +16,19 @@
 .short-bio {
   color: #2c364c;
 }
+
+@media screen and (max-width: 768px) {
+  .profile-container {
+    height: 150px;
+  }
+  .name {
+    font-size: 20px;
+  }
+  .short-bio {
+    font-size: 14px;
+  }
+  .profile {
+    height: 30px;
+    width: 30px;
+  }
+}

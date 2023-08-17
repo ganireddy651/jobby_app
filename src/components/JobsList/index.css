@@ -87,3 +87,49 @@
 .description {
   color: #ffffff;
 }
+@media screen and (max-width: 768px) {
+  .job-card {
+    padding: 15px;
+  }
+  .company-logo {
+    height: 40px;
+    width: 40px;
+  }
+  .job-title {
+    font-size: 15px;
+    margin: 0;
+  }
+  .job-rating {
+    margin: 5px 5px;
+  }
+  .location-container {
+    margin-right: 5px;
+  }
+  .location {
+    font-size: 12px;
+  }
+  .location-icon {
+    height: 12px;
+    width: 12px;
+  }
+  .job-type-icon {
+    height: 12px;
+    width: 12px;
+  }
+  .emp-type {
+    margin-left: 5px;
+    font-size: 12px;
+  }
+  .employment-type-container {
+    margin-left: 5px;
+  }
+  .package {
+    font-size: 16px;
+  }
+  .description-heading {
+    font-size: 20px;
+  }
+  .description {
+    font-size: 14px;
+  }
+}

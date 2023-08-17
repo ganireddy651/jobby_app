@@ -21,6 +21,7 @@
 }
 .label {
   color: #ffffff;
+  font-size: 20px;
 }
 .input {
   background-color: transparent;
@@ -45,4 +46,16 @@
   background-color: #4f46e5;
   color: #ffffff;
   border: 0;
+}
+
+@media screen and (max-width: 576px) {
+  .app-login-container {
+    padding: 20px;
+  }
+  .form-container {
+    padding: 40px 20px;
+  }
+  .label {
+    font-size: 14px;
+  }
 }

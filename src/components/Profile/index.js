@@ -56,9 +56,13 @@ class Profile extends Component {
           </div>
         ) : (
           <>
-            <img src={data.profileImageUrl} alt={data.name} />
+            <img
+              className="profile"
+              src={data.profileImageUrl}
+              alt={data.name}
+            />
             <h1 className="name">{data.name}</h1>
-            <p className="shot-bio">{data.shortBio}</p>
+            <p className="short-bio">{data.shortBio}</p>
           </>
         )}
       </div>
